@@ -41,6 +41,12 @@ attiny.menu.clock.internal8.bootloader.high_fuses=0xdf
 attiny.menu.clock.internal8.bootloader.extended_fuses=0xff
 attiny.menu.clock.internal8.build.f_cpu=8000000L
 
+attiny.menu.clock.internal16=16 MHz (internal)
+attiny.menu.clock.internal16.bootloader.low_fuses=0xc1
+attiny.menu.clock.internal16.bootloader.high_fuses=0xdf
+attiny.menu.clock.internal16.bootloader.extended_fuses=0xff
+attiny.menu.clock.internal16.build.f_cpu=16000000L
+
 attiny.menu.clock.external8=8 MHz (external)
 attiny.menu.clock.external8.bootloader.low_fuses=0xfe
 attiny.menu.clock.external8.bootloader.high_fuses=0xdf
