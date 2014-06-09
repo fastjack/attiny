@@ -23,5 +23,3 @@ Known issues
 ------------
 
 Currently the Arduino IDE doesn't always update the selected processor or clock speed in the footer of the editor window. If in doubt check the selected processor and clock speed in the menu.
-
-The internal 16 MHz clock setting has only been tested on ATtiny 45 and 85. It probably won't work with ATtiny 44 and 84.
