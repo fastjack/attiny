@@ -5,8 +5,10 @@ This repo contains a set of "cores" which adds support for ATtiny family of micr
 
 The following micro controllers are supported
 
+- ATtiny 25 (8 pin)
 - ATtiny 45 (8 pin)
 - ATtiny 85 (8 pin)
+- ATtiny 24 (16 pin)
 - ATtiny 44 (16 pin)
 - ATtiny 84 (16 pin)
 
