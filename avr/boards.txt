@@ -17,6 +17,11 @@ attinyx4.build.core=arduino:arduino
 attinyx4.build.board=attiny
 attinyx4.upload.tool=arduino:avrdude
 
+attinyx5.menu.cpu.attiny25=ATtiny25
+attinyx5.menu.cpu.attiny25.upload.maximum_size=2048
+attinyx5.menu.cpu.attiny25.build.mcu=attiny25
+attinyx5.menu.cpu.attiny25.build.variant=tiny8
+
 attinyx5.menu.cpu.attiny45=ATtiny45
 attinyx5.menu.cpu.attiny45.upload.maximum_size=4096
 attinyx5.menu.cpu.attiny45.build.mcu=attiny45
@@ -26,6 +31,11 @@ attinyx5.menu.cpu.attiny85=ATtiny85
 attinyx5.menu.cpu.attiny85.upload.maximum_size=8192
 attinyx5.menu.cpu.attiny85.build.mcu=attiny85
 attinyx5.menu.cpu.attiny85.build.variant=tiny8
+
+attinyx4.menu.cpu.attiny24=ATtiny24
+attinyx4.menu.cpu.attiny24.upload.maximum_size=2048
+attinyx4.menu.cpu.attiny24.build.mcu=attiny24
+attinyx4.menu.cpu.attiny24.build.variant=tiny14
 
 attinyx4.menu.cpu.attiny44=ATtiny44
 attinyx4.menu.cpu.attiny44.upload.maximum_size=4096
