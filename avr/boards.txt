@@ -47,6 +47,12 @@ attinyx4.menu.cpu.attiny84.upload.maximum_size=8192
 attinyx4.menu.cpu.attiny84.build.mcu=attiny84
 attinyx4.menu.cpu.attiny84.build.variant=tiny14
 
+attinyx5.menu.clock.internal128=128 kHz (internal)
+attinyx5.menu.clock.internal128.bootloader.low_fuses=0x64
+attinyx5.menu.clock.internal128.bootloader.high_fuses=0xdf
+attinyx5.menu.clock.internal128.bootloader.extended_fuses=0xff
+attinyx5.menu.clock.internal128.build.f_cpu=128000L
+
 attinyx5.menu.clock.internal1=1 MHz (internal)
 attinyx5.menu.clock.internal1.bootloader.low_fuses=0x62
 attinyx5.menu.clock.internal1.bootloader.high_fuses=0xdf
@@ -64,6 +70,12 @@ attinyx5.menu.clock.internal16.bootloader.low_fuses=0xc1
 attinyx5.menu.clock.internal16.bootloader.high_fuses=0xdf
 attinyx5.menu.clock.internal16.bootloader.extended_fuses=0xff
 attinyx5.menu.clock.internal16.build.f_cpu=16000000L
+
+attinyx5.menu.clock.external32768=32.768 kHz (external)
+attinyx5.menu.clock.external32768.bootloader.low_fuses=0x66
+attinyx5.menu.clock.external32768.bootloader.high_fuses=0xdf
+attinyx5.menu.clock.external32768.bootloader.extended_fuses=0xff
+attinyx5.menu.clock.external32768.build.f_cpu=32768L
 
 attinyx5.menu.clock.external8=8 MHz (external)
 attinyx5.menu.clock.external8.bootloader.low_fuses=0xfe
