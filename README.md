@@ -1,7 +1,7 @@
 ATtiny
 =======
 
-This repo contains a set of "cores" which adds support for ATtiny family of microcontroller to the Arduino IDE. This branch only supports the 1.5.x version of the Arduino IDE.
+This repo contains a set of "cores" which adds support for ATtiny family of microcontroller to the Arduino IDE. This branch only supports the 1.6.x version of the Arduino IDE.
 
 The following micro controllers are supported
 
@@ -15,7 +15,7 @@ The following micro controllers are supported
 Installation and usage
 ----------------------
 
-Clone this repository into the hardware directory (create it if it doesn't exist) of your Arduino IDE sketch folder and then restart the IDE. Make sure to switch to the `ide-1.5.x` branch after checking out.
+Clone this repository into the hardware directory (create it if it doesn't exist) of your Arduino IDE sketch folder and then restart the IDE. Make sure to switch to the `ide-1.6.x` branch after checking out.
 
 To program an ATtiny without a dedicated programmer see [this guide](http://hlt.media.mit.edu/?p=1706) that explains how to use an Arduino Uno or Duemilanove as a programmer. Note that guide was written for version 1.0.x of the Arduino IDE. Some adjustments might be needed.
 
